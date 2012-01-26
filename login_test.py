@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# User-specified strings are in all-caps
+# User-specified strings are in ALL CAPS
 
 import mechanize # for emulating browser
 
@@ -10,7 +10,7 @@ try:
     # Attempt to open url with fake browser
     url = "http://www.EXAMPLE.com"
     try:
-        br.open(url)
+        br.open(url, timeout=30)
     # Exit if url fails to open
     except mechanize.URLError:
         print "URL '%s' failed to open, exiting." % url
