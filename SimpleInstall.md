@@ -15,11 +15,11 @@
 
     1. Download mechanize and unzip it in your home directory
     
-    2. **Important**: Note where mechanize is (probably) C:\Documents and Settings\*USERNAME*\My Documents\Downloads\mechanize-0.2.5)
+    2. **Important**: Note where mechanize is (probably C:\Documents and Settings\USERNAME\My Documents\Downloads\mechanize-0.2.5)
     
     3. Open Accessories/Command Prompt and move to where mechanize is:
 
-		Replace USERNAME with your username
+        Replace USERNAME with your username
     
         Type `cd "C:\Documents and Settings\USERNAME\My Documents\Downloads\mechanize-0.25"`
         
@@ -38,9 +38,9 @@
 
     1. Assuming you see `setup.py` when you type `dir`, type:
 
-		`C:\Python27\python setup.py install`
-		
-		If python is not located in `C:\Python27`, change as necessary
+        `C:\Python27\python setup.py install`
+        
+        If python is not located in `C:\Python27`, change as necessary
     
     2. Magic should occur. Hopefully there are no errors. 
 
