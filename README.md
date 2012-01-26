@@ -47,7 +47,7 @@ Arrow to the end, add a semicolon if there isn't one, then type
 
     1. Download mechanize and unzip it somewhere in your home directory
     
-        (Let's say this is somewhere like C:\Documents and Settings\USERNAME\Downloads\mechanize)
+        (Let's say this is somewhere like C:\Documents and Settings\*USERNAME*\Downloads\mechanize)
     
     2. Open Accessories/Command Prompt and move to where mechanize is:
     
@@ -59,14 +59,14 @@ Arrow to the end, add a semicolon if there isn't one, then type
     
         Type `dir`, which will list the files in the current directory. 
         
-        If you see **setup.py**, you are in business. 
+        If you see `setup.py`, you are in business. 
         
         If you see another mechanize folder, type `cd mechanize<tab>` (or whichever version of mechanize shows up)
 
 
 5. Install mechanize
 
-    1. Assuming you see **setup.py** when you type `dir`, type `python setup.py install`
+    1. Assuming you see `setup.py` when you type `dir`, type `python setup.py install`
     
     2. Magic should occur. Hopefully there are no errors. 
 
@@ -77,7 +77,7 @@ Arrow to the end, add a semicolon if there isn't one, then type
     
         Remember that the python prompt is `>>>`
     
-    2. Type import mechanize
+    2. Type `import mechanize`
     
         Confusingly, success is nothing happening (a new blank line with `>>>`)
         
