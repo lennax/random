@@ -1,0 +1,6 @@
+Python and mechanize
+=============
+
+SimpleInstall.md is the fewest number of steps to get Python running on Windows. 
+
+EnvVar.md involves modifying your system Environment Variables, which is less dangerous than it sounds and a useful skill for programming on Windows. 

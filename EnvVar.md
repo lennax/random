@@ -2,20 +2,22 @@
 
 1. Get Python
 
-    1. Download the windows binary of Python 2.7.2. 
+    1. Download the windows binary of Python 2.7.2.  
+
+        "Python 2.7.2 Windows Installer (Windows Binary -- does not include source)"
 
     2. Install the windows binary of Python. 
 
-    3. Note where Python is (probably C:\Python27)
+    3. Note where Python is (probably `C:\Python27`)
 
 
 2. Tell your computer where Python is
 
-    1. Right click on My Computer and go to Properties or whatever
+    1. Right click on My Computer and go to Properties
 
     2. Click the Advanced tab, click the Environment Variables button
 
-    3. Below the System variables box, click "New"
+    3. Below the System variables box, click New
 
         Variable name: `PYTHON_HOME`
     
@@ -29,6 +31,8 @@
 Arrow to the end, add a semicolon if there isn't one, then type
 `%PYTHON_HOME%`
 
+        In the previous step, we made `PYTHON_HOME refer to `C:\Python27`, and now we are adding `PYTHON_HOME` to the path. This means if you change python versions, you would only modify `PYTHON_HOME`
+
         Again, make sure there are no spaces. Click OK
         
         Click OK until the window goes away
@@ -36,7 +40,7 @@ Arrow to the end, add a semicolon if there isn't one, then type
 
 3. Make sure your computer knows where Python is
 
-    Go to Start/Run and type python and hit enter (or type python into Command Prompt)
+    Go to Start/Run and type `python` and hit enter (or type `python` into Command Prompt)
     
     If you get a python prompt (triple right brackets... `>>>`) success
     
